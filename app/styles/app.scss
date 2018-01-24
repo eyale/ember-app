@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import './home.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Alegreya, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    transition: .3s all;
+    text-shadow: 0 0 0 rgba(0,0,0,.1);
+    &:hover {
+        color: deeppink;
+        text-shadow: 0 1px 1px #f79fce;
+    }
+}
+
+.grid {
+    width: 992px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
